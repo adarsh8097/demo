@@ -55,10 +55,87 @@ img {
     height: auto;
 }
 
+.events-item__img::before {
+    content: "";
+    display: block;
+    padding-top: 75.45946%;
+}
+.about_team_data{
+	border: 1px solid #f0f0f0;
+    padding: 10px;
+    border-radius: 0.5rem;
+}
+
+tr>th{
+	background-color:#393185; color:#fff; text-align:center; vertical-align:middle;
+}
+
+th, td{
+	border: 1px solid #c9cdcf;
+	
+}
+
+.button-elements .button {
+    width: auto;
+	 text-align: center;
+	 margin: 5px 0px 5px 0px !important;
+	 padding: 15px 110px !important;
+
+}
+
+.pledges{
+	display: flex;
+	justify-content: space-evenly;
+}
+
+/* .main-menu__item .main-menu__link::before {
+	width: 100px;
+}
+
+.main-menu__item .main-menu__link::before {
+    content: "";
+    display: block;
+    height: 3px;
+    width: 0%;
+    background: #fdd340;
+    position: absolute;
+    bottom: 3px;
+    left: 0;
+    -webkit-transition: width .3s;
+    -o-transition: width .3s;
+    transition: width .3s;
+} */
+
+/* .button{
+	padding: 15px 100px !important;
+} */
+
+/* .button-elements .button:first-of-type {
+	width: 33%;
+	margin: 0px 0px 0px 0px !important;
+} */
+/* 
+@media only screen and (min-width: 576px) {
+    .button-elements .button:first-of-type {
+        display: inline-block;
+        margin: 1px 0px 10px 0;
+    }
+} */
+
 
 	 @media screen and (max-width:768px) {
 		.menuItem{
 			justify-content: end;
+		}
+
+		.more_item{
+			 margin-left: 3rem;
+		}
+
+		.pledges{
+		display: flex;
+	justify-content: center;
+	flex-direction: column;
 		}
 	 }
 
